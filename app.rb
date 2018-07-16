@@ -4,7 +4,7 @@ require_relative 'models/piglatinizer.rb'
 class App < Sinatra::Base
 
   get '/' do
-  erb :user_input
+  erb :index
 end
 
 post '/' do
