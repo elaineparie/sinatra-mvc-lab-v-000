@@ -7,7 +7,7 @@ class PigLatinizer
   end
 
   def piglatinize(text)
-    if @text.count == 1
+    if text.count == 1
     array = text.split
     array << "way"
     array.join
