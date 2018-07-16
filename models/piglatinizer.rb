@@ -8,12 +8,12 @@ class PigLatinizer
 
   def piglatinize(text)
     text = text.split /([aeiou].*)/
-    if text.count == 1
+    if text.first == /([aeiou].*)/
       text << "way"
       text.join
     else
     text = text.rotate(1)
-    text << "way"
+    text << "ay"
     final_word = text.join
     final_word
   end
