@@ -14,6 +14,7 @@ class PigLatinizer
       word_array.collect do |word|
         array << piglatinize(word)
         sentence = array.join(" ")
+      end
         binding.pry
       else
   array = text.split(%r{\s*})
