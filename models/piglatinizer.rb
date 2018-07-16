@@ -8,7 +8,7 @@ class PigLatinizer
   end
 
   def move_first_letter
-    text.split(/[aeiou]/)
+    text.split(%r{[aeiou]})
 
   end
 
