@@ -11,7 +11,7 @@ class PigLatinizer
     if text.count == 1
       text << "way"
       text.join
-    else 
+    else
     text = text.rotate(1)
     text << "ay"
     final_word = text.join
