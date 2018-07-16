@@ -7,12 +7,13 @@ class PigLatinizer
   end
 
   def piglatinize(text)
-    text = text.split /([aeiou].*)/
-    binding.pry
+  array = []
+  array << text
     if text.first == "a" || text.first == "e" || text.first == "i" || text.first == "o" || text.first == "u" || text.first == "A" || text.first == "E" || text.first == "I" || text.first == "O" || text.first == "U"
       text << "way"
       text.join
     else
+        text = text.split /([aeiou].*)/
     text = text.rotate(1)
     text << "ay"
     final_word = text.join
