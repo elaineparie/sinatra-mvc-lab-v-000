@@ -17,8 +17,8 @@ def sentence_splitter(text)
   end
 
 
-  def piglatinize
-    if @text.split(' ').count > 1
+  def piglatinize(text)
+    if text.split(' ').count > 1
     sentence_splitter(text)
   else
   array = text.split(%r{\s*})
