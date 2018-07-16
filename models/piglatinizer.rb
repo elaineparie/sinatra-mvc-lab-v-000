@@ -4,7 +4,6 @@ class PigLatinizer
 
   def initialize(text)
     @text = text
-
     #@text = text.downcase.split /([aeiou].*)/
   end
 
