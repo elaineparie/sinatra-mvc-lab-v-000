@@ -14,6 +14,7 @@ def sentence_splitter(text)
       array << piglatinize(word)
     end
     sentence = array.join(" ")
+    binding.pry
   end
 end
 
