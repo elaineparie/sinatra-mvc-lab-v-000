@@ -3,7 +3,8 @@ class PigLatinizer
   attr_reader :text
 
   def initialize(text)
-    @text = text.downcase
+    @text = text.downcase.split(/[aeiou]/)
+    bindng.pry
   end
 
   def move_first_letter
