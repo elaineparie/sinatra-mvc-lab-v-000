@@ -13,7 +13,7 @@ class PigLatinizer
       word2 = piglatinize(word_array[1])
       word3 = piglatinize(word_array[2])
   end
-
+ebd
   def piglatinize(text)
   array = text.split(%r{\s*})
     if array.first == "a" || array.first == "e" || array.first == "i" || array.first == "o" || array.first == "u" || array.first == "A" || array.first == "E" || array.first == "I" || array.first == "O" || array.first == "U"
