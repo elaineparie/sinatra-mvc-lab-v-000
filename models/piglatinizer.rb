@@ -27,7 +27,7 @@ end
     text = text.rotate(1)
     text << "ay"
     final_word = text.join
-    final_wordå
+    final_word
 end
 end
 
