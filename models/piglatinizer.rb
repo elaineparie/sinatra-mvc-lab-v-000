@@ -2,8 +2,7 @@ require 'pry'
 class PigLatinizer
   attr_accessor :text
 
-    def initialize(text)
-    @text = text
+    def initialize
     #@text = text.downcase.split /([aeiou].*)/
   end
 
@@ -18,7 +17,7 @@ def sentence_splitter(text)
   end
 
 
-  def piglatinize
+  def piglatinize(text)
     if text.split(' ').count > 1
     sentence_splitter(text)
   else
