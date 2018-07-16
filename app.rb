@@ -7,7 +7,7 @@ class App < Sinatra::Base
   erb :index
 end
 
-post '/piglatinize' do
+post '/' do
   @piglatin_text = PigLatinizer.new
 
     erb :piglatinize
