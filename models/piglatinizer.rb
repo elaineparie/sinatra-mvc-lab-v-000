@@ -13,10 +13,8 @@ class PigLatinizer
     if word_array.count > 1
       word_array.collect do |word|
         array << piglatinize(word)
-        binding.pry
-      end
-
-    end
+        array.join(" ")
+      else
   array = text.split(%r{\s*})
     if array.first == "a" || array.first == "e" || array.first == "i" || array.first == "o" || array.first == "u" || array.first == "A" || array.first == "E" || array.first == "I" || array.first == "O" || array.first == "U"
       array << "way"
@@ -28,6 +26,7 @@ class PigLatinizer
     final_word = text.join
     final_word
   end
+end
 end
 
 end
