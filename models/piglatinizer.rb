@@ -10,8 +10,8 @@ class PigLatinizer
   array = []
   array << text
     if array.first == "a" || array.first == "e" || array.first == "i" || array.first == "o" || array.first == "u" || array.first == "A" || array.first == "E" || array.first == "I" || array.first == "O" || array.first == "U"
-      text << "way"
-      text.join
+      array << "way"
+      array.join
     else
         text = text.split /([aeiou].*)/
     text = text.rotate(1)
