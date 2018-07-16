@@ -19,6 +19,7 @@ end
 
   def piglatinize(text)
     if text.split(' ').count > 1
+      binding.pry
     sentence_splitter(text)
   end
   array = text.split(%r{\s*})
