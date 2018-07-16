@@ -12,6 +12,7 @@ class PigLatinizer
       word1 = piglatinize(word_array[0])
       word2 = piglatinize(word_array[1])
       word3 = piglatinize(word_array[2])
+      binding.pry
   end
 end
 
