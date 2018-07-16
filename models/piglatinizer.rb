@@ -9,7 +9,6 @@ class PigLatinizer
 
   def move_first_letter
     text.split(/[aeiou]/)
-    binding.pry
 
   end
 
