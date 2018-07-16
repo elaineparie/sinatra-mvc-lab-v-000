@@ -4,7 +4,7 @@ class PigLatinizer
 
   def initialize(text)
     @text = text.downcase.split(/[aeiou]/)
-    bindng.pry
+    binding.pry
   end
 
   def move_first_letter
