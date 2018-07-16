@@ -12,6 +12,4 @@ post '/piglatinize' do
 
     erb :piglatinize
   end
-
 end
-
