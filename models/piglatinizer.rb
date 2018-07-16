@@ -6,8 +6,8 @@ class PigLatinizer
     #@text = text.downcase.split /([aeiou].*)/
   end
 
-  def piglatinize(text)
-    if text.count == 1
+  def piglatinize
+    if @text.count == 1
     array = text.split
     array << "way"
     array.join
