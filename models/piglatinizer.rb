@@ -25,10 +25,10 @@ class PigLatinizer
     text = text.rotate(1)
     text << "ay"
     final_word = text.join
-    final_word
-  end
+    final_wordå
 end
 end
+
 end
 
 end
