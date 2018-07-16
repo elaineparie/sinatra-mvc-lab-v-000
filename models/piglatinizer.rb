@@ -8,7 +8,6 @@ class PigLatinizer
 
   def piglatinize(text)
   array = text.split(%r{\s*})
-  binding.pry
     if array.first == "a" || array.first == "e" || array.first == "i" || array.first == "o" || array.first == "u" || array.first == "A" || array.first == "E" || array.first == "I" || array.first == "O" || array.first == "U"
       array << "way"
       array.join
