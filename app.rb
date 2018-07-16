@@ -10,7 +10,7 @@ end
 post '/' do
   @piglatin_text = PigLatinizer.new(params[:user_text])
 
-    erb :results
+    erb :result
   end
 
 end
