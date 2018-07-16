@@ -9,9 +9,7 @@ class PigLatinizer
   def how_many_words(text)
     word_array = text.split
     if word_array.count > 1
-      word1 = piglatinize(word_array[0])
-      word2 = piglatinize(word_array[1])
-      word3 = piglatinize(word_array[2])
+      word1 = word_array[0]
       binding.pry
   end
 end
