@@ -8,9 +8,10 @@ class PigLatinizer
 
 
   def piglatinize(text)
+    binding.pry
     array = []
-    word_array = text.split
     if word_array.count > 1
+      word_array = text.split
       word_array.each do |word|
         array << piglatinize(word)
         sentence = array.join(" ")
