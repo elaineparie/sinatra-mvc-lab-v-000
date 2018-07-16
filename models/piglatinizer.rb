@@ -9,7 +9,7 @@ class PigLatinizer
   def piglatinize(text)
   array = []
   array << text
-    if text.first == "a" || text.first == "e" || text.first == "i" || text.first == "o" || text.first == "u" || text.first == "A" || text.first == "E" || text.first == "I" || text.first == "O" || text.first == "U"
+    if array.first == "a" || array.first == "e" || array.first == "i" || array.first == "o" || array.first == "u" || array.first == "A" || array.first == "E" || array.first == "I" || array.first == "O" || array.first == "U"
       text << "way"
       text.join
     else
