@@ -12,9 +12,8 @@ def sentence_splitter(text)
   if word_array.count > 1
     word_array.map do |word|
       array << piglatinize(word)
-      sentence = array.join(" ")
     end
-    sentence
+    sentence = array.join(" ")
   end
 end
 
