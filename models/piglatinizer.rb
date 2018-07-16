@@ -5,4 +5,8 @@ class PigLatinizer
     @text = text.downcase
   end
 
+  def move_first_letter
+    text.split(/[aeiou]/)
+  end
+
 end
