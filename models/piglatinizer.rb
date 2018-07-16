@@ -13,7 +13,6 @@ def sentence_splitter
     word_array.each do |word|
       array << piglatinize(word)
       sentence = array.join(" ")
-      binding.pry
     end
   end
 end
