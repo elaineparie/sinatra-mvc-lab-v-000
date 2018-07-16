@@ -17,5 +17,6 @@ class PigLatinizer
     final_word = text.join
     final_word
   end
+end
 
 end
