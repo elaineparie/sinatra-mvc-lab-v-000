@@ -17,7 +17,7 @@ class PigLatinizer
     text << "ay"
     final_word = text.join
     final_word
-
+end
   end
 
 end
