@@ -7,8 +7,8 @@ class PigLatinizer
   end
 
   def piglatin
-    word = @text.rotate(1)
-    word << "ay"
+    text = @text.rotate(1)
+    text << "ay"
     final_word = text.join
     final_word
   end
