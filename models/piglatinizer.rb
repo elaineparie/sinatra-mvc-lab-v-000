@@ -2,7 +2,7 @@ require 'pry'
 class PigLatinizer
   attr_reader :text
 
-  def initialize
+  def initialize(text)
     @text = text.downcase.split /([aeiou].*)/
   end
 
