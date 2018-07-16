@@ -6,7 +6,7 @@ class PigLatinizer
     #@text = text.downcase.split /([aeiou].*)/
   end
 
-def sentence_splitter(@text)
+def sentence_splitter(text)
   array = []
   if word_array.count > 1
     word_array = text.split
