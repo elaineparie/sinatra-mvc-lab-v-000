@@ -9,6 +9,7 @@ class PigLatinizer
   def piglatinize(text)
     text = text.split /([aeiou].*)/
     if text.first == /([aeiou].*)/
+      binding.pry
       text << "way"
       text.join
     else
