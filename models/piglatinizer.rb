@@ -6,7 +6,7 @@ class PigLatinizer
     #@text = text.downcase.split /([aeiou].*)/
   end
 
-  def piglatin
+  def piglatin(text)
     text = @text.rotate(1)
     text << "ay"
     final_word = text.join
