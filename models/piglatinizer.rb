@@ -10,7 +10,7 @@ def sentence_splitter(text)
   array = []
   word_array = text.split
   if word_array.count > 1
-    word_array.each do |word|
+    word_array.map do |word|
       array << piglatinize(word)
       binding.pry
       sentence = array.join(" ")
