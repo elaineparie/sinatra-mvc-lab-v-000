@@ -8,6 +8,7 @@ class PigLatinizer
 
   def piglatinize(text)
     word_array = text.split
+    if word_array.count > 1
 
     binding.pry
   array = text.split(%r{\s*})
