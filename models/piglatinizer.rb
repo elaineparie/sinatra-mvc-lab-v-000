@@ -11,7 +11,7 @@ class PigLatinizer
     array = []
     word_array = text.split
     if word_array.count > 1
-      word_array.collect do |word|
+      word_array.map do |word|
         array << piglatinize(word)
         sentence = array.join(" ")
         binding.pry
