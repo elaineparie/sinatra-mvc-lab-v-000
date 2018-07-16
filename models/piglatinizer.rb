@@ -8,7 +8,7 @@ class PigLatinizer
 
   def piglatinize(text)
     text = text.split /([aeiou].*)/
-    if text.first == "a" || text.first == "e" || text.first == "i" || text.first == "o" || text.first == "u" text.first == "A" || text.first == "E" || text.first == "I" || text.first == "O" || text.first == "U"
+    if text.first == "a" || text.first == "e" || text.first == "i" || text.first == "o" || text.first == "u" || text.first == "A" || text.first == "E" || text.first == "I" || text.first == "O" || text.first == "U"
       text << "way"
       text.join
     else
