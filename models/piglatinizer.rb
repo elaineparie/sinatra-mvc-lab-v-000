@@ -7,6 +7,7 @@ class PigLatinizer
   end
 
 def sentence_splitter(text)
+  array = []
   word_array = text.split
   if word_array.count > 1
     word_array.each do |word|
